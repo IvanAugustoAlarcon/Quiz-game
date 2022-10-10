@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.quiz-options{
+    list-style-type: none;
+    margin: 1rem 0;
+}
+.quiz-options li{
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin: .7rem 0;
+    padding: .4rem 1.2rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 0 0 #3f19a5;
+}
+.quiz-options li:hover{
+    background-color: lightgray;
+    box-shadow: 0 4px 0 0 #bbbbbb;
+}
+.selected{
+    box-shadow: 0 4px 0 0 #bbbbbb!important;
+}
+#play-again{
+    display: none;
+}
+#next-question{
+   margin-top: 10px;
+}
